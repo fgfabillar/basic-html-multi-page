@@ -1,0 +1,106 @@
+/* navigation bar in studentaccount.html*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+
+#header{
+    padding: 5px;
+    margin-bottom: 6%;
+}
+
+#logo, #navigation{
+    display: inline-block;
+}
+
+#navigation{
+    float:right;
+    margin-top: 20px;
+}
+
+#navigation ul li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#navigation a{
+    color: rgb(2, 75, 118);
+    text-decoration: none;
+}
+
+#navigation a:hover{
+    color: rgb(222, 178, 6);
+}
+
+/*content in studentaccount.html*/
+
+#loginaccount{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(238, 245, 251);
+    border: 3px solid rgb(2, 75, 118);
+    border-radius: 20px;
+    padding: 60px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+#loginaccount h1{
+    font-size: 32px;
+    text-align: center;
+    color: rgb(2, 75, 118);
+}
+
+label{
+    color: rgb(2, 75, 118);
+    font-size: 20px;
+    display: block;
+    margin-top: none;
+    text-align: center;
+}
+
+#username, #pw{
+    width: 93%;
+    padding: 12px;
+    border: none; 
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login-button{
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+h2 a{
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(2, 75, 118);
+}
+
+h2 a:hover{
+    color: rgb(115, 176, 212);
+}
+
+
+/*footer in studentaccount.html*/
+
+#footer{
+    text-align: center;
+    background-color: rgb(2, 75, 118);
+    color: white;
+    margin-top: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}

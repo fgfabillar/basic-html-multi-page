@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Create Student Account</title>
+      <link rel="stylesheet" href="createstudentaccount.css">
+  </head>
+  <body>
+
+    <!--START: Header-->
+      <div id="header">
+
+          <!--START: Logo-->
+          <div id="logo">
+              <img src="https://humber.ca/brand/sites/default/files/logos/Faculty_of_Media_amp_Creative_Arts/Faculty_of_Media_and_Creative_Arts_Blue_and_gold.png" alt="logo" width="495" height="100">
+              <!--IMAGE SOURCE: https://humber.ca/brand/sites/default/files/logos/Faculty_of_Media_amp_Creative_Arts/Faculty_of_Media_and_Creative_Arts_Blue_and_gold.png-->
+            </div>
+          <!--END: Logo-->
+      
+          <!--START: Navigation-->
+          <div id="navigation">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programoverview.html">Program Overview</a></li>
+                <li><a href="studentaccount.html">Student Account</a></li>
+                <li><a href="viewperformance.html">Student Performance</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+          </div>
+          <!--END: Navigation-->
+
+      </div>
+    <!--END: Header-->
+
+
+    <!--START: Banner-->
+      <div id="banner">
+          <img src="images/Humber design picture.jpeg" alt="banner" width="1920" height="412">
+          <!--IMAGE SOURCE: https://mediaarts.humber.ca/assets/images/programs/certificate/web-design-devel.jpg-->
+      </div>
+    <!-- END: Banner -->
+
+
+    <!--START: Create Account Form-->
+      <div id="createaccount">
+        <h1>Create Student Account</h1>
+            <hr>
+        <form action="submission.html" method="POST">
+
+            <section class="full-name">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="full-name-box" id="full-name-box">
+            </section>
+          
+            <section class="email-address">
+                <label for="email-address">Email Address</label>
+                <input type="text" name="email-address-box" id="email-address-box">
+            </section>
+          
+            <section class="phone-number">
+                <label for="phone-number">Phone Number</label>
+                <input type="text" name="phone-number-box" id="phone-number-box">
+            </section>
+          
+            <section class="technical-requirement">
+                <label for="technical">Which do you prefer?</label>
+                <input list="technicalreq" id="technicalreq-box" name="technicalreq-box">
+                <datalist id="technicalreq">
+                    <option value="Mac"></option>
+                    <option value="Windows"></option>
+                    <option value="Linux"></option>
+                    <option value="PC"></option>
+                </datalist>
+            </section>
+
+            <section class="year-selection">
+                <label for="year">Which year level are you in?</label>
+                <input list="yearlevel" id="yearlevelbox" name="yearlevelbox">
+                <datalist id="yearlevel">
+                    <option value="Year 1"></option>
+                    <option value="Year 2"></option>
+                    <option value="Year 3"></option>
+                    <option value="Year 4"></option>
+                </datalist>
+            </section>
+
+            <section class="additional-info">
+                <label for="adinfo">Tell us about yourself</label>
+                <textarea id="adinfobox" name="addinformation" rows="6" cols="70"></textarea>
+            </section>
+
+            <section class="submission">
+                <input type="submit" value="Submit" class="submit-button">
+            </section>
+
+        </form>
+      </div>
+    <!--END: Create Account Form-->
+
+    <!--START: Back button-->
+      <div class="backbutton">
+        <a href="studentaccount.html">Back</a>
+      </div>
+    <!--END: Back button-->
+
+    <!--START: Footer-->
+      <div id="footer">
+            Copyright 2023 | Humber College | Faculty of Media and Creative Arts
+      </div>
+    <!--END: Footer-->
+
+  </body>
+</html>

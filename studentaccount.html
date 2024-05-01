@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Student Account</title>
+        <link rel="stylesheet" href="studentaccount.css">
+    </head>
+    <body>
+        <!--START: Header-->
+          <div id="header">
+            <!--START: Logo-->
+              <div id="logo">
+                  <img src="https://humber.ca/brand/sites/default/files/logos/Faculty_of_Media_amp_Creative_Arts/Faculty_of_Media_and_Creative_Arts_Blue_and_gold.png" alt="logo" width="495" height="100">
+                  <!--IMAGE SOURCE: https://humber.ca/brand/sites/default/files/logos/Faculty_of_Media_amp_Creative_Arts/Faculty_of_Media_and_Creative_Arts_Blue_and_gold.png-->
+                </div>
+            <!--END: Logo-->
+          
+            <!--START: Navigation-->
+              <div id="navigation">
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="programoverview.html">Program Overview</a></li>
+                      <li><a href="studentaccount.html">Student Account</a></li>
+                      <li><a href="viewperformance.html">Student Performance</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+              </div>
+            <!--END: Navigation-->
+          </div>
+        <!--END: Header-->
+
+        <!--START: Student Account-->
+          <div id="loginaccount">
+              <h1>Sign In Student Account</h1>
+              <form action="submission.html" method="POST">
+                  <label for="username">Username</label>
+                  <br>
+                  <input id="username" name="username" type="username" required minlength="5" maxlength="8">
+                  <br>
+                  <br>
+                  <label for="pw">Password</label>
+                  <br>
+                  <input id="pw" name="pw" type="password" required minlength="5" maxlength="8">
+                  <br>
+                  <br>
+                  <input type="submit" value="Login" class="login-button">
+
+                  <h2><a href="createstudentaccount.html" target="_blank">Create Student Account</a></h2>
+              </form>
+          </div>
+        <!--END: Student Account-->
+
+        <!--START: Footer-->
+          <div id="footer">
+              Copyright 2023 | Humber College | Faculty of Media and Creative Arts
+          </div>
+        <!--END: Footer-->
+    </body>
+</html>

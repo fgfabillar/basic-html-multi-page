@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <!--START: Header-->
+        <div id="header">
+
+            <!--START: Logo-->
+                <div id="logo">
+                    <img src="https://humber.ca/brand/sites/default/files/logos/Faculty_of_Media_amp_Creative_Arts/Faculty_of_Media_and_Creative_Arts_Blue_and_gold.png" alt="logo" width="495" height="100">
+                    <!--IMAGE SOURCE: https://humber.ca/brand/sites/default/files/logos/Faculty_of_Media_amp_Creative_Arts/Faculty_of_Media_and_Creative_Arts_Blue_and_gold.png-->
+                </div>
+            <!--END: Logo-->
+        
+            <!--START: Navigation-->
+                <div id="navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="programoverview.html">Program Overview</a></li>
+                        <li><a href="studentaccount.html">Student Account</a></li>
+                        <li><a href="viewperformance.html">Student Performance</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            <!--END: Navigation-->
+
+        </div>
+        <!--END: Header-->
+
+        <!--START: Program Inquiries-->
+        <div id="program">
+            <div class="programinquiriestext">
+                <h1>For Program Inquiries</h1>
+            </div>
+
+            <p>Speak to the Program Coordinator about the course curriculum, projects and career options.
+                <br>
+                <br> 
+                <b>Kristopher Ohlendorf</b>
+                <br>
+                <i>Program Coordinator</i>
+                <br>
+                416.675.6622 ext. 4899
+                <br>
+                <a href="mailto:mmdd@humber.ca">mmdd@humber.ca</a>
+            </p>
+        </div>
+        <!--END: Program Inquiries-->
+
+        <!--START: Contact Form-->
+        <div id="contactform">
+            <div class="contactformtext">
+                <h1>Contact Form</h1>
+                <hr>
+                <form action="submission.html" method="POST">
+
+                    <section class="full-name">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="fullnamebox" id="fullnamebox">
+                    </section>
+
+                    <section class="email-address">
+                        <label for="email-address">Email Address</label>
+                        <input type="text" name="emailaddressbox" id="emailaddressbox">
+                    </section>
+
+                    <section class="phone-number">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="text" name="phonenumberbox" id="phonenumberbox">
+                    </section>
+
+                    <section class="inquirytext">
+                        <label for="inquiry">Type your inquiry</label>
+                        <textarea id="inquirybox" name="inquirybox" rows="7" cols="80"></textarea>
+                    </section>
+
+                    <section class="submission">
+                        <input type="submit" value="Submit" class="submitbutton">
+                    </section>
+
+                </form>
+            </div>
+        </div>
+
+        <!--END: Contact Form-->
+
+        <!--START: Footer-->
+            <div id="footer">
+                Copyright 2023 | Humber College | Faculty of Media and Creative Arts
+            </div>
+        <!--END: Footer-->
+        
+    </body>
+</html>
+

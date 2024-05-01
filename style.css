@@ -1,0 +1,125 @@
+/*navigation bar in index.html*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#header{
+    padding: 25px;
+}
+
+#logo, #navigation{
+    display: inline-block;
+}
+
+#navigation{
+    float:right;
+    margin-top: 20px;
+}
+
+#navigation ul li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#navigation a{
+    color: rgb(2, 75, 118);
+    text-decoration: none;
+}
+
+#navigation a:hover{
+    color: rgb(222, 178, 6);
+}
+
+#banner img{
+    width: 100%;
+}
+
+/*program overview in index.html*/
+
+.generaloverview{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.mmd{
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.programoverview{
+    flex: 2;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    color: rgb(2, 75, 118);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/*student testimonials in index.html*/
+
+#studenttestimonials{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+#studenttestimonials h1{
+    margin-bottom: 65px;
+    color: rgb(2, 75, 118);
+    align-items: center;
+    
+}
+
+#students{
+    display: inline-block;
+    width: 33%;
+    align-items: center;
+}
+
+#students p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h2{
+    color: rgb(2, 75, 118);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/*footer in index.html*/
+
+#footer{
+    text-align: center;
+    background-color: rgb(2, 75, 118);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+

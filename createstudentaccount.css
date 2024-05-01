@@ -1,0 +1,181 @@
+/* navigation bar in createstudentaccount.html*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+
+#header{
+    padding: 5px;
+    margin-bottom: 2%;
+}
+
+#logo, #navigation{
+    display: inline-block;
+}
+
+#navigation{
+    float:right;
+    margin-top: 20px;
+}
+
+#navigation ul li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#navigation a{
+    color: rgb(2, 75, 118);
+    text-decoration: none;
+}
+
+#navigation a:hover{
+    color: rgb(222, 178, 6);
+}
+
+#banner{
+    margin-top: 0%;
+    margin-bottom: 3%
+}
+
+/*content in createstudentaccount.html*/
+
+#createaccount h1{
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    color:  rgb(2, 75, 118);
+}
+
+#createaccount{
+    text-align: left;
+    font-weight: bold;
+    background-color: rgb(238, 245, 251);
+    border: 3px solid rgb(2, 75, 118);
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.full-name{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.email-address{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.phone-number{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.technical-requirement{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.year-selection{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.additional-info{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#full-name-box{
+    width: 285px;
+    height: 15px;
+}
+
+#email-address-box{
+    width: 250px;
+    height: 15px;
+}
+
+#phone-number-box{
+    width: 247px;
+    height: 15px;
+}
+
+#technicalreq-box{
+    width: 196px;
+    height: 15px;
+}
+
+#yearlevelbox{
+    width: 145px;
+    height: 15px;
+}
+
+#adinfobox{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.submission{
+    text-align: center;
+}
+
+.submit-button{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#banner img{
+    width: 100%;
+}
+
+/*back button in createstudentaccount.html*/
+
+.backbutton{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.backbutton a{
+    background: rgb(2, 75, 118);
+    border: 1px solid rgb(2, 75, 118);
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+}
+  
+.backbutton a:hover{
+    background: white;
+    border: 1px solid rgb(2, 75, 118);
+    color: rgb(2, 75, 118);
+}
+
+/*footer in createstudentaccount.html*/
+
+#footer{
+    text-align: center;
+    background-color: rgb(2, 75, 118);
+    color: white;
+    margin-top: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
